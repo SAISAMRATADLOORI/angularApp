@@ -1,0 +1,5 @@
+"use strict";
+var data = require("./config.json");
+exports.apiUrl = data.api.url;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2FwcC9jb25maWcvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLG9DQUF1QztBQUU1QixRQUFBLE1BQU0sR0FBaUIsSUFBSyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMiLCJmaWxlIjoiYXBwL2NvbmZpZy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAgKiBhcyBkYXRhIGZyb20gJy4vY29uZmlnLmpzb24nO1xuXG5leHBvcnQgbGV0IGFwaVVybDogc3RyaW5nID0gKDxhbnk+ZGF0YSkuYXBpLnVybDtcblxuIl19
