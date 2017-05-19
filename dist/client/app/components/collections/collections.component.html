@@ -1,0 +1,16 @@
+<h3 class='well well-sm'>List of Projects</h3>
+
+<div [ngSwitch]="status">
+    <div *ngSwitchCase="'loading'">
+        <loading-indicator></loading-indicator>
+    </div>
+    <div *ngSwitchCase="'active'">
+       <div class="grid grid-pad">
+        <a *ngFor="let collection of collections" (click)="onSelect(collection)" class="col-1-4">
+         <div class="module collection">
+           <h4>{{collection.name | uppercase}}</h4>
+         </div>
+        </a>
+      </div>
+    </div>
+</div>

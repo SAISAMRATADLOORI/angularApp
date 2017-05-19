@@ -1,0 +1,19 @@
+
+a:hover {
+ cursor:pointer;
+}
+
+.runs {
+  max-height: 300px;
+  overflow-y: auto; 
+}
+
+section {
+  float: left;
+  width: 33%;
+}
+aside {
+  float: right;
+  width: 50%;
+
+}

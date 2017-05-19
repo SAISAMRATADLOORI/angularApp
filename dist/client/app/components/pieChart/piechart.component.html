@@ -1,0 +1,10 @@
+<div id="wrapper">
+  <canvas baseChart
+          [data]="pieChartData"
+          [labels]="pieChartLabels"
+          [colors]="pieChartColors"
+          [options]="pieChartOptions"
+          [chartType]="pieChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"  width="100" height="200"></canvas>
+</div>
