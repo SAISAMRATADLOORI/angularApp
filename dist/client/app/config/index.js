@@ -1,6 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var data = require("./config.json");
-exports.apiUrl = data.api.url;
-
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2FwcC9jb25maWcvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxvQ0FBdUM7QUFFNUIsUUFBQSxNQUFNLEdBQWlCLElBQUssQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDIiwiZmlsZSI6ImFwcC9jb25maWcvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgICogYXMgZGF0YSBmcm9tICcuL2NvbmZpZy5qc29uJztcblxuZXhwb3J0IGxldCBhcGlVcmw6IHN0cmluZyA9ICg8YW55PmRhdGEpLmFwaS51cmw7XG5cbiJdfQ==
